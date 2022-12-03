@@ -1,4 +1,4 @@
-#conteaner {
+.conteaner {
     width: 300px;
     height: 60px;
     margin: 50px auto;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-#cub1 {
+.cub1 {
     transform: translate(-60px, 0);
     display: inline-block;
     width: 60px;
@@ -15,7 +15,7 @@
     animation: Loading1 4s linear normal infinite;
 }
 
-#cub2 {
+.cub2 {
     transform: translate(-1000px, 0);
     display: inline-block;
     width: 60px;
