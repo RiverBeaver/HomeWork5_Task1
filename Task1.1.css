@@ -1,0 +1,45 @@
+#conteaner {
+    width: 300px;
+    height: 60px;
+    margin: 50px auto;
+    border: 5px solid rgb(214, 109, 3);
+    overflow: hidden;
+}
+
+#cub1 {
+    transform: translate(-60px, 0);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(214, 109, 3);
+    animation: Loading1 4s linear normal infinite;
+}
+
+#cub2 {
+    transform: translate(-1000px, 0);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(214, 109, 3);
+    animation: Loading2 4s linear normal infinite 0.8s;
+}
+
+@keyframes Loading1 {
+    0% {
+        transform: translate(-60px, 0);
+    }
+    100% {
+        transform: translate(550px, 0);
+    }
+    
+}
+
+@keyframes Loading2 {
+    0% {
+        transform: translate(-310px, 0);
+    }
+    100% {
+        transform: translate(300px, 0);
+    }
+    
+}
