@@ -1,4 +1,4 @@
-#conteaner {
+.conteaner {
     width: 300px;
     height: 60px;
     margin: 50px auto;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-#cub {
+.cub {
     width: 60px;
     height: 60px;
     background-color: rgb(214, 109, 3);
